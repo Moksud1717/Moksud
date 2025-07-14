@@ -1,0 +1,64 @@
+print("Ali Moksud")
+
+if 5 > 2:
+ print("Five is greater than two") 
+x=5
+y = "Python"  #comments
+print(x)
+print(y)
+
+x,y,z ="Apple","Mango", "Banana"
+print(x)
+print(y)
+print(z)
+x=y=z="All in one"
+print(x)
+print(y)
+print(z)
+fruits=["Mango","banana","Appple"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+
+x="Python"
+y= "is"
+z= "Exilent"
+print(x,y,z)
+
+x= "programming"
+def funct():
+  global x
+  x = "coding"
+funct()
+print("Python means "+x)
+
+x= 1064
+y= 3.0
+z=-50.46
+zz= 3+5j
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(zz))
+
+a= """Python is a versatile and high-level programming language,
+for its clear syntax and readability,
+It's widely used for web development, data analysis, artificial intelligence, and automation."""
+print(a)  #multiple string assign using three qoutes
+for x in "Loop":
+  print(x)
+a= "Bangladesh"
+print(a[3])
+print(len(a))
+text= "The best things in life are free!"
+print("free" in text)  #keyword in check present or not
+g= "abcd,efgij!"
+print(g[:5])
+print(g[2:5])
+a= " Hello, World "
+print(a.upper())
+print(a.lower())
+print(a.strip()) #remove space  
+print(a.replace("World", "Globe"))
+print(a.split(","))
